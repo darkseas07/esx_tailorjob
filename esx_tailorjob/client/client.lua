@@ -96,7 +96,7 @@ Citizen.CreateThread(function()
 				local pedCoords = GetEntityCoords(Peds[i].pId)
 				if GetDistanceBetweenCoords(playerCoords, pedCoords) < 1.0 then
 					Draw3DText2(pedCoords.x, pedCoords.y, pedCoords.z + 1.0, "~g~[E] ~s~"..Peds[i].pName)
-					if IsControlPressed(1, Keys["E"]) and not onAction then
+					if IsControlPressed(1, Keys["E"]) and not onAction and not IsPedInAnyVehicle(playerPedId, false) then
  						getNPC(Peds[i].jName)
 					end
 				elseif GetDistanceBetweenCoords(playerCoords, pedCoords) < 2.5 then
