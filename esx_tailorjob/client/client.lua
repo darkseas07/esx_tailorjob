@@ -324,11 +324,11 @@ Citizen.CreateThread(function()
 			cotton = Config.Cottons[num]
 		else
 			local cottonCoords = vector3(cotton.posX, cotton.posY, cotton.posZ)
-			if GetDistanceBetweenCoords(playerCoords, cottonCoords) < 15.0 then
+			if GetDistanceBetweenCoords(playerCoords, cottonCoords) < 18.0 then
 				cottonMarker = DrawMarker(cotton.type, cotton.posX, cotton.posY, cotton.posZ - 0.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, cotton.scaleX, cotton.scaleY, cotton.scaleZ, cotton.r, cotton.g, cotton.b, cotton.a, cotton.bobUpAndDown, cotton.faceCamera, cotton.p19, cotton.rotate, cotton.texture, cotton.drawOnEnts)
-				if GetDistanceBetweenCoords(playerCoords, cottonCoords) < 1.0 then
+				if GetDistanceBetweenCoords(playerCoords, cottonCoords) < 0.7 then
 					Draw3DText2(cottonCoords.x, cottonCoords.y, cottonCoords.z - 0.3, "[E]")
-					if IsControlPressed(1, Keys["E"]) and not onAction then
+					if IsControlPressed(1, Keys["E"]) and not onAction and not IsPedInAnyVehicle(playerPedId, false) then
 						onAction = true
 						TriggerEvent("mythic_progressbar:client:progress",
 						{
@@ -366,7 +366,6 @@ Citizen.CreateThread(function()
 								exports['mythic_notify']:DoHudText('error', 'Pamuk toplamayı iptal ettin!')
 							end
 						end)
- 						
 					end
 				end
 			end
