@@ -7,6 +7,8 @@ Darkseas - esx_tailorjob
 - Eğer buradaki itemlar sizde yok ise <b><i>"esx_tailorjob.sql"</b></i> sorgusunu çalıştırarak kullanabilirsiniz. Fakat itemlar sizde varsa veya sizdeki itemlara göre ayarlamak isterseniz <b><i>"Config.lua"</b></i> dosyasında <i>"item_name1, item_name2, item_name3"</i> değiştirmeniz gerekmektedir.
 - Scriptin çalışması için <b>mythic_notify ve mythic_progressbar</b> scriptleri gerekmektedir eğer kurmak istemezseniz veya sizde varsa <b><i>"client/client.lua"</b></i> dosyasından bulup oradaki satırları değiştirebilirsiniz.
 
+<b>Bug ve görüşleriniz için yazabilirsiniz.</b>
+
 
 <b>[EN]</b> <br/>
 - The script I have made is a tailor job script. From the <b><i>config.lua</b></i> file, you can change how much cotton will be in the inventory at a time, the amount of money to be given per clothing when selling clothes, the name of the peds, their skins, ther coordinates, the coordinates of the cotton field, blips and items.
@@ -14,5 +16,6 @@ Darkseas - esx_tailorjob
 - If you do not have the items here, you can use the <b><i>"esx_tailorjob.sql"</b></i> query. But if you have the items or if you want to adjust them according to the items you have, you need to change <i>"item_name1, item_name2, item_name3"</i> in the <b><i>"Config.lua"</b></i> file.
 - For the script to work, <b>mythic_notify ve mythic_progressbar</b> scripts are required. If you do not want to install it, or you can find it from the <b><i>"client/client.lua"</b></i>  file and change the lines there.
 
-<br/>
-Bug ve görüşleriniz için yazabilirsiniz.
+<b>I hope you will like, and sorry for my english!</b>
+
+<b>You can write for your bug and your feedback.</b>
