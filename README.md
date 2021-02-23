@@ -16,6 +16,6 @@ Darkseas - esx_tailorjob
 - If you do not have the items here, you can use the <b><i>"esx_tailorjob.sql"</b></i> query. But if you have the items or if you want to adjust them according to the items you have, you need to change <i>"item_name1, item_name2, item_name3"</i> in the <b><i>"Config.lua"</b></i> file.
 - For the script to work, <b>mythic_notify ve mythic_progressbar</b> scripts are required. If you do not want to install it, or you can find it from the <b><i>"client/client.lua"</b></i>  file and change the lines there.
 
-<b>I hope you will like, and sorry for my english!</b>
+<b>I hope you will like, and sorry for my English!</b>
 
 <b>You can write for your bug and your feedback.</b>
